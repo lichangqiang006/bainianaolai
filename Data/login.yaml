@@ -1,0 +1,32 @@
+BN-test001:
+  username: "18610453007"
+  password: 123456
+  expext: "itheima"
+BN-test002:
+  username: "itheima"
+  password: 123456
+  expext: "itheima"
+BN-test003:
+  username: " 18610453007 "
+  password: 123456
+  expext: "itheima"
+BN-test004:
+  username: " itheima "
+  password: 123456
+  expext: "itheima"
+BN-test005:
+  username: "186104530077"
+  password: 123456
+  toast_expext: "此用户不存在"
+BN-test006:
+  username: 18610453007
+  password: 12345
+  toast_expext: "登录密码错误"
+BN-test007:
+  username: "theima"
+  password: 123456
+  toast_expext: "此用户不存在"
+BN-test008:
+  username: "itheima"
+  password: 12345
+  toast_expext: "登录密码错误"
